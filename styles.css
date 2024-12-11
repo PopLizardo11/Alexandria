@@ -97,7 +97,14 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
     padding-top: 5vw;
+}
+
+.img-container-r {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 .img-container {
@@ -122,6 +129,10 @@ body {
     margin-top: 3vw;
 }
 
+#campfire {
+    margin-right: 4vw;
+}
+
 /**/
 
 @media (min-width: 1024px) {
@@ -137,6 +148,13 @@ body {
         height: 3rem;
     }
 
+    .img-section {
+        padding: 0;   
+    }
+
+    .home-img {
+        width: 600px;
+    }
 }
 
 @media (min-width: 1248px) {
