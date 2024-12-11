@@ -1,11 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .nav-bar {
     position: relative;
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vw;
+    box-sizing: border-box;
 }
 
 .nav-logo {
-    font-size: 20px;
+    font-size: 15px;
     text-transform:uppercase;
 }
 
