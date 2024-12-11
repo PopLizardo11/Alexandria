@@ -104,7 +104,7 @@ body {
 .img-container-r {
     display: flex;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .img-container {
@@ -129,9 +129,6 @@ body {
     margin-top: 3vw;
 }
 
-#campfire {
-    margin-right: 4vw;
-}
 
 /**/
 
@@ -154,6 +151,14 @@ body {
 
     .home-img {
         width: 600px;
+    }
+
+    #campfire {
+        margin-right: 4vw;
+    }
+
+    .img-container-r {
+        justify-content: flex-end;
     }
 }
 
