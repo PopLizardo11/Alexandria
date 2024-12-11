@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: whitesmoke;
 }
 
 .overlay {
@@ -80,7 +81,7 @@ body {
 
 .def-heading {
     font-size: 56px;
-    font-weight: 250;
+    font-weight: 280;
     text-wrap: wrap;
     padding: 5vw;
     text-align: justify;
