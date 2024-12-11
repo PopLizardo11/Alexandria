@@ -174,6 +174,10 @@ body {
     .img-container-l {
         justify-content: flex-start;
     }
+
+    .img-sub {
+        font-size: 28px;
+    }
 }
 
 @media (min-width: 1248px) {
