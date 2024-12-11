@@ -75,6 +75,18 @@ body {
     height: 2.5rem;    
 }
 
+.def-heading {
+    font-size: 56px;
+    font-weight: 250;
+    text-wrap: wrap;
+    padding: 5vw;
+    text-align: justify;
+    margin: 0;
+    font-family: "Noto Serif Display"
+}
+
+/**/
+
 @media (min-width: 1024px) {
     .nav-bar {
         padding: 5vw;
