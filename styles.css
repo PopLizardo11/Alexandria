@@ -4,15 +4,14 @@ body {
 }
 
 .overlay {
-    height: 0%;
-    width: 100%;
+    height: 100%;
+    width: 0%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-y: hidden;
+    background-color: white;
+    overflow-x: hidden;
     transition: 0.5s;
 }
 
@@ -28,20 +27,20 @@ body {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: black;
     display: block;
     transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:focus {
     color: #f1f1f1;
 }
 
 .overlay .close-btn {
     position: absolute;
     top: 20px;
-    right: 45px;
-    font-size: 60px;
+    right: 10px;
+    font-size: 24px;
 }
 
 @media screen and (max-height: 450px) {
@@ -67,13 +66,13 @@ body {
 }
 
 .nav-logo {
-    font-size: 15px;
+    font-size: 25px;
     text-transform:uppercase;
     margin: 0;
 }
 
 .nav-burger {
-    height: 2rem;    
+    height: 2.5rem;    
 }
 
 @media (min-width: 1024px) {
