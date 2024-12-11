@@ -107,6 +107,12 @@ body {
     justify-content: center;
 }
 
+.img-container-l {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 .img-container {
     display: flex;
     flex-direction: column;
@@ -157,8 +163,16 @@ body {
         margin-right: 4vw;
     }
 
+    #prison {
+        margin-left: 4vw;
+    }
+
     .img-container-r {
         justify-content: flex-end;
+    }
+
+    .img-container-l {
+        justify-content: flex-start;
     }
 }
 
