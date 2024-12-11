@@ -16,12 +16,40 @@ body {
 .nav-logo {
     font-size: 15px;
     text-transform:uppercase;
+    margin: 0;
 }
 
 .nav-burger {
     height: 2rem;    
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1024px) {
+    .nav-bar {
+        padding: 5vw;
+    }
+
+    .nav-logo {
+        font-size: 30px;
+    }
+
+    .nav-burger {
+        height: 3rem;
+    }
 
 }
+
+@media (min-width: 1248px) {
+    .nav-bar {
+        padding: 3vw;
+    }
+
+    .nav-logo {
+        font-size: 25px;
+    }
+
+    .nav-burger {
+        display: none;
+    }
+
+}
+
