@@ -10,7 +10,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .overlay a {
-    padding: 8px;
+    padding: 10px;
     text-decoration: none;
     font-size: 36px;
     color: black;
@@ -46,7 +46,7 @@ body {
 @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
 
-    .overlay a {font-size: 20px}
+    .overlay a {font-size: 25px}
 
     .overlay .closebtn {
         font-size: 40px;
@@ -105,3 +105,12 @@ body {
 
 }
 
+@media (min-height: 780px) {
+    .nav-logo {
+        font-size: 30px;
+    }
+
+    .nav-burger {
+        height: 2.5rem;
+    }
+}
