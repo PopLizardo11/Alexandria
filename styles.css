@@ -93,6 +93,34 @@ body {
     font-family: "Noto Serif Display"
 }
 
+.img-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vw;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.home-img {
+    width: 90vw;
+    object-fit: cover;
+}
+
+.img-sub {
+    text-align: center;
+    font-size: 36px;
+    font-family: "noto serif display";
+    color: black;
+    margin-top: 3vw;
+}
+
 /**/
 
 @media (min-width: 1024px) {
