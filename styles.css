@@ -34,6 +34,10 @@ body {
     transition: 0.3s;
 }
 
+.close-icon {
+    height: 2.5rem;
+}
+
 .overlay a:focus {
     color: #f1f1f1;
 }
