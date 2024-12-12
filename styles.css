@@ -226,6 +226,12 @@ body {
     margin-bottom: 10vh;
 }
 
+
+.footer-section a:hover {
+    background-color: rgb(10,10,30);
+    color: whitesmoke;
+}
+
 /**/
 
 @media (min-width: 1024px) {
