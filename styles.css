@@ -150,7 +150,7 @@ body {
     padding: 4vw;
     justify-content: space-between;
     margin-top: 10vh;
-    margin-bottom: 25vh;
+    margin-bottom: 20vh;
 }
 
 .inquire-heading {
@@ -187,6 +187,43 @@ body {
     background-color: rgb(10,10,30);
     color: whitesmoke;
     transition: 50ms;
+}
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4vw;
+    gap: 5vw;
+}
+
+.footer-nav, .coder-contact  {
+    font-family: "noto serif display";
+    font-size: 20px;
+}
+
+.footer-nav a, .coder-contact {
+    color: black;
+}
+
+.footer-statement {
+    font-size: 15px;
+    font-family: "noto sans";
+    text-transform: uppercase;
+    margin-left: 4vw;
+    margin-bottom: 4vw;
+}
+
+.footer-nav {
+    margin-bottom: 10vh;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 10vh;
 }
 
 /**/
@@ -230,6 +267,10 @@ body {
 
     .img-sub {
         font-size: 28px;
+    }
+
+    .footer-section {
+        gap: 15vw;
     }
 }
 
