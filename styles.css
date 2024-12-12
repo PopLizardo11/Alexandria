@@ -276,7 +276,11 @@ body {
 
 @media (min-width: 1248px) {
     .nav-bar {
-        padding: 3vw;
+        padding: 3.5vw;
+    }
+
+    .def-heading {
+        padding-left: 3.5vw;
     }
 
     .nav-logo {
