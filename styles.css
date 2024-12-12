@@ -138,12 +138,56 @@ body {
 
 .img-sub {
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
     font-family: "noto serif display";
     color: black;
     margin-top: 3vw;
 }
 
+.inquire-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4vw;
+    justify-content: space-between;
+    margin-top: 10vh;
+    margin-bottom: 25vh;
+}
+
+.inquire-heading {
+    font-family: "noto serif display";
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.genre-container-con {
+    font-family: "noto serif display";
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 40px;
+}
+
+
+.inquire-btn {
+    color: black;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-decoration: none;
+    transition: 50ms;
+    text-align: center;
+    font-family: "noto sans";
+}
+
+.inquire-btn:hover {
+    background-color: rgb(10,10,30);
+    color: whitesmoke;
+    transition: 50ms;
+}
 
 /**/
 
