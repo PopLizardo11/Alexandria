@@ -376,6 +376,23 @@ body {
         color: rgba(0,0,0,0.5);
         transition: 500ms;
     }
+
+    .cat-section div span {
+        display:inline;
+    }
+
+    .cat-section {
+        height: 60vh;
+    }
+
+    .cat-section div {
+        flex-direction: row;
+        gap: 1vw;
+    }
+
+    .cat-text {
+        font-size: 44px;
+    }
 }
 
 @media (min-height: 780px) {
