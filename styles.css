@@ -85,6 +85,14 @@ body {
     height: 2.5rem;    
 }
 
+.top-nav {
+    display: none;
+}
+
+.top-soc-nav {
+    display: none;
+}
+
 .def-heading {
     font-size: 56px;
     font-weight: 280;
@@ -283,6 +291,13 @@ body {
 @media (min-width: 1248px) {
     .nav-bar {
         padding: 3.5vw;
+        align-items: center;
+    }
+
+    .nav-div {
+        display: flex;
+        gap: 3vw;
+        align-items: center;
     }
 
     .def-heading {
@@ -298,7 +313,30 @@ body {
     }
 
 
+    .top-nav {
+        display: flex;
+        font-family: "noto serif display";
+        font-size: 18px;
+        gap: 1vw;
+    }
 
+    .top-nav a {
+        color: black;
+    }
+
+    .top-soc-nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .soc-icon {
+        height: 25px;
+        margin-right: 2vw;
+    }
+
+    #github {
+        margin-right: 0;
+    }
 }
 
 @media (min-height: 780px) {
