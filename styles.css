@@ -371,10 +371,24 @@ body {
     font-weight: 350;
 }
 
+.col-text-title:hover {
+    text-decoration: underline;
+}
+
 .col-text-desc {
     font-family: "noto sans";
     text-align: center;
     font-size: 15px;
+}
+
+.col-link {
+    color: black;
+    text-decoration: none;
+    transition: .8s ease;
+}
+
+.col-link:hover {
+    transform: scale(1.03);
 }
 
 /**/
