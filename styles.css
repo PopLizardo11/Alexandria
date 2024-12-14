@@ -392,6 +392,12 @@ body {
 
     .cat-text {
         font-size: 44px;
+        color: black;
+        transition: 500ms;
+    }
+
+    .cat-text:hover {
+        color: rgba(0,0,0,0.5);
     }
 }
 
