@@ -432,6 +432,11 @@ body {
     padding: 10px;
 } 
 
+.auth-desc {
+    font-family: "noto serif display";
+    text-align: center;
+}
+
 /**/
 
 @media (min-width: 1024px) {
