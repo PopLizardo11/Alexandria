@@ -282,14 +282,14 @@ body {
 }
 
 .quote-img {
-    width: 350px;
+    width: 338px;
     height: 450px;
     box-sizing: border-box;
 }
 
 .gal-overlay {
-  height: 400px;
-  width: 300px;
+  height: 450px;
+  width: 338px;
   opacity: 0;
   transition: .8s ease;
   background-color: rgba(255, 255, 255, 0.8);
@@ -315,20 +315,20 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5vw;
     width: 100%;
     margin-top: 4vw;
 }
 
 .col-img {
-    width: 300px;
-    height: 400px;
+    width: 338px;
+    height: 450px;
     box-sizing: border-box;
 }
 
 .col-overlay {
-  height: 400px;
-  width: 300px;
+  height: 450px;
+  width: 338px;
   opacity: 0;
   transition: .8s ease;
   background-color: rgba(255, 255, 255, 0.5);
@@ -483,6 +483,11 @@ body {
         width: 300px;
         height: 400px;
         box-sizing: border-box;
+    }
+
+    .gal-overlay {
+        width: 300px;
+        height: 400px;
     }
 }
 
