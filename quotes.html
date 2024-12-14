@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/quotes-styles.css">
     <title>Quotes —— Alexandria</title>
 </head>
 <body>
+    <header>
+        <div class="overlay" id="sidebar">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 close-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>                  
+            </a>
     
+            <div class="overlay-content ">
+                <a href="quotes.html">Quotes</a>
+                <a href="collections.html">Collections</a>
+                <a href="authors.html">Authors</a>
+                <a href="explore.html">Explore</a>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <div class="nav-div">
+                <a class="nav-logo">Alexandria</a>
+                <div class="top-nav">
+                    <a href="quotes.html">Quotes</a>
+                    <a href="collections.html">Collections</a>
+                    <a href="authors.html">Authors</a>
+                    <a href="explore.html">Explore</a>
+                </div>
+            </div>
+            <a onclick="openNav()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width=".8" stroke="currentColor" class="size-6 nav-burger">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </a>
+            <div class="top-soc-nav">
+                <a href="https://www.youtube.com/watch?v=BbeeuzU5Qc8"><img class="soc-icon" id="yt" src="icons/yt-icon.png"></a>
+                <a href="https://x.com/ahlehSANdreeah"><img class="soc-icon" src="icons/x-icon.png"></a>
+                <a href="https://github.com/PopLizardo11/Alexandria"><img class="soc-icon" id="github" src="icons/github-icon.png"></a>
+            </div>
+        </nav>
+    </header>
+    <footer>
+        <section class="inquire-section">
+            <h2 class="inquire-heading">
+                Let's rebuild from the ashes!
+            </h2>
+            <div class="genre-container-con">
+                <div class="genre-container">
+                    <span class="genre-text">Journey</span> <span> / </span>
+                    <span class="genre-text">Mystery</span> <span> / </span> 
+                    <span class="genre-text" >Romance</span> <span> / </span>
+                    <span class="genre-text">Thrill & Suspense</span> <span> / </span>
+                    <span class="genre-text">Science Fiction</span> <span> / </span>
+                    <span class="genre-text">Horror</span> <span> / </span>
+                    <span class="genre-text">Heartwarming</span> <span> / </span>
+                    <span class="genre-text">Fantasy</span>
+                </div>
+                <a class="inquire-btn" href="#">EXPLORE</a>
+            </div>
+        </section>
+        <section class="footer-section">
+            <div class="footer-nav">
+                <a href="quotes.html">Quotes</a> <span> / </span>
+                <a href="collections.html">Collections</a> <span> / </span>
+                <a href="authors.html">Authors</a>  <span> / </span>
+                <a href="explore.html">Explore</a> 
+            </div>
+            <div class="contact-info">
+                <a href="poplizardo4321@gmail.com" class="coder-contact">poplizardo4321@gmail.com</a>
+                <a href="https://github.com/PopLizardo11" class="coder-contact">Github</a>
+            </div>  
+        </section>
+        <p class="footer-statement">@ BEST EMPOTEK GROUP OF 2024</p>
+    </footer>
 </body>
+<script src="main.js"></script>
 </html>
