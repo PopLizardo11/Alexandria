@@ -322,6 +322,9 @@ body {
 
     .top-nav a {
         color: black;
+        font-weight: 500;
+        transition: 500ms;
+        text-decoration: none;
     }
 
     .top-soc-nav {
@@ -336,6 +339,11 @@ body {
 
     #github {
         margin-right: 0;
+    }
+
+    .top-nav a:hover {
+        color: rgba(0,0,0,0.5);
+        transition: 500ms;
     }
 }
 
