@@ -324,7 +324,12 @@ body {
     width: 338px;
     height: 450px;
     box-sizing: border-box;
+    transition: .8s ease;
 }
+
+.col-img:hover{
+    opacity: 0.5;
+  }
 
 .col-overlay {
   height: 450px;
