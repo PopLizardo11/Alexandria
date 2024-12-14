@@ -355,6 +355,28 @@ body {
     padding: 10px;
 } 
 
+.col-text {
+    width: 338px;
+}
+
+.col-text-sub {
+    font-family: "noto sans";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.col-text-title {
+    font-family: "noto serif display";
+    text-align: center;
+    font-weight: 350;
+}
+
+.col-text-desc {
+    font-family: "noto sans";
+    text-align: center;
+    font-size: 15px;
+}
+
 /**/
 
 @media (min-width: 1024px) {
