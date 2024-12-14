@@ -287,6 +287,30 @@ body {
     box-sizing: border-box;
 }
 
+.gal-overlay {
+  height: 400px;
+  width: 300px;
+  opacity: 0;
+  transition: .8s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.gal-overlay:hover{
+    opacity: 1;
+  }
+
+.gal-overlay p {
+    font-size: 32px;
+    font-family: "noto serif display";
+    text-align: center;
+    padding: 10px;
+} 
+
 /**/
 
 @media (min-width: 1024px) {
