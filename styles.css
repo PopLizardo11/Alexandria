@@ -244,6 +244,35 @@ body {
 
 /**/
 
+.cat-section {
+    height: 75vh;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat-section div {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+}
+
+.cat-section div span {
+    display: none;
+}
+
+.cat-text {
+    font-family: "noto serif display";
+    font-size: 36px;
+    font-weight: 250;
+    cursor: pointer;
+}
+
+
+/**/
+
 @media (min-width: 1024px) {
     .nav-bar {
         padding: 5vw;
