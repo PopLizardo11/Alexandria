@@ -391,6 +391,47 @@ body {
     transform: scale(1.03);
 }
 
+.authors-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4vw;
+    width: 100%;
+    margin-top: 4vw;
+}
+
+.auth-img {
+    width: 338px;
+    height: 450px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.auth-overlay {
+  height: 450px;
+  width: 338px;
+  opacity: 0;
+  transition: .8s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.auth-overlay:hover{
+    opacity: 1;
+  }
+
+
+.auth-overlay p {
+    font-size: 32px;
+    font-family: "noto serif display";
+    text-align: center;
+    padding: 10px;
+} 
+
 /**/
 
 @media (min-width: 1024px) {
