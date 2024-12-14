@@ -272,6 +272,20 @@ body {
     color: black;
 }
 
+.quotes-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin-top: 4vw;
+}
+
+.quote-img {
+    width: 350px;
+    height: 450px;
+    box-sizing: border-box;
+}
 
 /**/
 
@@ -400,6 +414,12 @@ body {
 
     .cat-text:hover {
         transform: scale(1.05);
+    }
+
+    .quote-img {
+        width: 300px;
+        height: 400px;
+        box-sizing: border-box;
     }
 }
 
