@@ -68,26 +68,26 @@
         <div class="explore-form">
             <div id="name-form">
                 <div class="first-last">
-                    <div>
-                        <span>First name</span>
-                        <input type="text">
+                    <div class="form-part">
+                        <span class="form-text first-last-input" >First name</span>
+                        <input class="form-input-t " type="text">
                     </div>
-                    <div>
-                        <span>Last name</span>
-                        <input type="text">
+                    <div class="form-part">
+                        <span class="form-text first-last-input">Last name</span>
+                        <input class="form-input-t" type="text">
                     </div>
                 </div>
             </div>
             <div class="form-part" id="email-form">
                 <span class="form-text">Email</span> 
-                <input class="" type="text">
+                <input class="form-input-t" type="text">
             </div>
             <div class="form-part" id="genre-form">
                 <span class="form-text">Genre of choice</span> 
-                <input type="text">
+                <input class="form-input-t" type="text">
             </div>
             <div class="form-part" id="critic-form">
-                <span class="form-text">Criticism Approach</span> 
+                <span class="form-text">Criticism approach</span> 
                 <select id="approach" name="approach" selected="">
                     <option value="none" selected disabled hidden></option>
                     <option value="arch">Archetypal</option>
@@ -101,9 +101,9 @@
             </div>
             <div id="message-form">
                 <span class="form-text">Message</span> <br>
-                <textarea></textarea>
+                <textarea id="message-area"></textarea>
             </div>
-            <input type="submit">
+            <button id="submit-button">Submit</button>
         </div>
     </section>
     <section class="latest-section"></section>

@@ -443,7 +443,8 @@ body {
     flex-wrap: wrap;
     padding-left: 4vw;
     padding-right: 4vw;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 10vw;
     align-items: center;
 }
 
@@ -453,7 +454,6 @@ body {
     font-weight: 300;
     margin-bottom: 2vw;
     width: 480px;
-    text-align: center;
 }
 
 .explore-desc-img {
@@ -484,6 +484,10 @@ body {
     height: 25px;
 }
 
+.explore-form {
+
+}
+
 .form-part {
     display: flex;
     flex-direction: column;
@@ -491,7 +495,35 @@ body {
 
 .first-last {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
+}
+
+.first-last-input {
+    width: 225px;
+}
+
+.form-text {
+    font-family: "noto sans";
+    font-size: 16px;
+}
+
+.form-input-t, #approach {
+    padding: 10px;
+}
+
+#message-area {
+    width: 450px;
+    height: 100px;
+    resize: vertical;
+}
+
+#submit-button {
+    background-color: white;
+    font-size: 18px;
+    font-family: "noto sans";
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin-top: 3vw;
 }
 
 /**/
