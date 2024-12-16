@@ -521,9 +521,16 @@ body {
     background-color: white;
     font-size: 18px;
     font-family: "noto sans";
-    border: 2px solid black;
+    border: 1.5px solid rgb(10,10,30);
     padding: 10px 20px;
     margin-top: 3vw;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+#submit-button:hover {
+    color: whitesmoke;
+    background-color: rgb(10,10,30);
 }
 
 /**/
