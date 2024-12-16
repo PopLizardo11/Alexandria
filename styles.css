@@ -443,6 +443,8 @@ body {
     flex-wrap: wrap;
     padding-left: 4vw;
     padding-right: 4vw;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .explore-desc-heading {
@@ -480,6 +482,16 @@ body {
 
 .soc-ex-icon {
     height: 25px;
+}
+
+.form-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-last {
+    display: flex;
+    gap: 10px;
 }
 
 /**/
