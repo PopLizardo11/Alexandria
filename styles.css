@@ -535,6 +535,39 @@ body {
     background-color: rgb(10,10,30);
 }
 
+.title-img {
+    object-fit:cover;
+    height: 220px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.title-head {
+    font-family: "noto serif display";
+    text-align: justify;
+    text-align-last: center;
+    font-weight: 300;
+    font-size: 28px;
+    width: 95%;
+    margin-bottom: 0;
+}
+
+.title-sub {
+    font-family: "noto sans";
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    width: 80%;
+}
+
 /**/
 
 @media (min-width: 1024px) {
@@ -593,6 +626,10 @@ body {
 
     .explore-desc-text, .explore-desc-link {
         font-size: 14px;
+    }
+
+    .title-head {
+        width: 75%;
     }
 }
 
