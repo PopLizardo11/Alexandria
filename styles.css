@@ -608,6 +608,11 @@ body {
     object-position: 50% 30%;
 }
 
+.refref-imgs {
+    max-width: 80%;
+    margin-top: 20px;
+}
+
 /**/
 
 @media (min-width: 1024px) {
