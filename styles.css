@@ -594,9 +594,17 @@ body {
     font-family: "noto sans";
     font-weight: 300;
     font-size: 18px;
-    width: 70%;
+    width: 95%;
     text-indent: 1.5em;
     text-align: justify;
+}
+
+#ger-cov {
+    object-position: 50% 20%;
+}
+
+#jas-cov {
+    object-position: 50% 30%;
 }
 
 /**/
@@ -661,6 +669,15 @@ body {
 
     .title-head {
         width: 75%;
+    }
+
+    .body-section p {
+        font-family: "noto sans";
+        font-weight: 300;
+        font-size: 18px;
+        width: 70%;
+        text-indent: 1.5em;
+        text-align: justify;
     }
 }
 
