@@ -568,6 +568,22 @@ body {
     width: 80%;
 }
 
+.sub-footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw;
+}
+
+.sub-footer-section a {
+    color: black;
+    text-decoration: none;
+    font-family: "noto sans";
+    font-weight: 300;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+
 /**/
 
 @media (min-width: 1024px) {
